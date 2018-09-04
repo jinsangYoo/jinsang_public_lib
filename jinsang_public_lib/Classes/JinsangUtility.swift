@@ -1,6 +1,6 @@
 //
 //  JinsangUtility.swift
-//  FBSnapshotTestCase
+//  Pods
 //
 //  Created by jinsang yoo on 2018. 9. 4..
 //

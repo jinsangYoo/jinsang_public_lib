@@ -7,12 +7,14 @@
 //
 
 import UIKit
+import jinsang_public_lib
 
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        JinsangUtility.HelloJinsang()
     }
 
     override func didReceiveMemoryWarning() {

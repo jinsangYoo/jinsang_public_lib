@@ -27,6 +27,19 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		AECD87E2213E75BF007955D2 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
 		082052C2642CEC0EC45B4AE1 /* Pods-jinsang_public_lib_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-jinsang_public_lib_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-jinsang_public_lib_Tests/Pods-jinsang_public_lib_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		134262F2D639FB91D9B42152 /* Pods-jinsang_public_lib_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-jinsang_public_lib_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-jinsang_public_lib_Tests/Pods-jinsang_public_lib_Tests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -171,6 +184,7 @@
 				607FACCD1AFB9204008FA782 /* Frameworks */,
 				607FACCE1AFB9204008FA782 /* Resources */,
 				CF8256ACAED91BF5B6B03835 /* [CP] Embed Pods Frameworks */,
+				AECD87E2213E75BF007955D2 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -218,6 +232,7 @@
 					};
 					607FACE41AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = HA4JNBHU77;
 						LastSwiftMigration = 0900;
 						TestTargetID = 607FACCF1AFB9204008FA782;
 					};
@@ -526,6 +541,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 134262F2D639FB91D9B42152 /* Pods-jinsang_public_lib_Tests.debug.xcconfig */;
 			buildSettings = {
+				DEVELOPMENT_TEAM = HA4JNBHU77;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -548,6 +564,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 082052C2642CEC0EC45B4AE1 /* Pods-jinsang_public_lib_Tests.release.xcconfig */;
 			buildSettings = {
+				DEVELOPMENT_TEAM = HA4JNBHU77;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",

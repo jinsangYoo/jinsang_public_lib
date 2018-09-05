@@ -1,6 +1,0 @@
-framework module Pods_jinsang_public_lib_Tests {
-  umbrella header "Pods-jinsang_public_lib_Tests-umbrella.h"
-
-  export *
-  module * { export * }
-}

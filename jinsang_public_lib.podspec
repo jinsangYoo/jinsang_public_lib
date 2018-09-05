@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'jinsang_public_lib'
-  s.version          = '0.6.0'
+  s.version          = '0.6.1'
   s.summary          = 'sample project of cocoapods.'
   s.swift_version = '4.1'
 
@@ -38,6 +38,6 @@ TODO: Add long description of the pod here.
   # }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
-  s.frameworks = 'AceTM'
+  # s.frameworks = 'AceTM'
   # s.dependency 'AFNetworking', '~> 2.3'
 end

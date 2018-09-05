@@ -119,8 +119,8 @@
 		AE4DA49ECD693BF384CD824DF02D7C6E /* NMBStringify.m in Sources */ = {isa = PBXBuildFile; fileRef = D20712BF889E8F3E37D4075A45B3047E /* NMBStringify.m */; settings = {COMPILER_FLAGS = "-DPRODUCT_NAME=Nimble/Nimble"; }; };
 		AECD87E7213E7B6E007955D2 /* JinsangUtility.swift in Sources */ = {isa = PBXBuildFile; fileRef = AECD87E6213E7B6E007955D2 /* JinsangUtility.swift */; };
 		AECD87E8213E7B6E007955D2 /* JinsangUtility.swift in Sources */ = {isa = PBXBuildFile; fileRef = AECD87E6213E7B6E007955D2 /* JinsangUtility.swift */; };
-		AECD8811213F97B1007955D2 /* AceTM.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AECD8810213F97B0007955D2 /* AceTM.framework */; };
-		AECD8812213F97B1007955D2 /* AceTM.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AECD8810213F97B0007955D2 /* AceTM.framework */; };
+		AECD8815213FA83D007955D2 /* AceTM.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AECD8814213FA83D007955D2 /* AceTM.framework */; };
+		AECD8816213FA83D007955D2 /* AceTM.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AECD8814213FA83D007955D2 /* AceTM.framework */; };
 		AED58B976AB8F62FBFB0DA437861E088 /* PrettyDynamicTypeSyntax.swift in Sources */ = {isa = PBXBuildFile; fileRef = C21B8D3C4E2547445883AD8CD24D0ED7 /* PrettyDynamicTypeSyntax.swift */; };
 		AF1174085D9BC5D50FCE0480E9C2BE94 /* BeGreaterThan.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01FD8FF250692C040658177EFA90C0E0 /* BeGreaterThan.swift */; settings = {COMPILER_FLAGS = "-DPRODUCT_NAME=Nimble/Nimble"; }; };
 		B102ABE4E54B71B3D2C2118E2782FAB9 /* BeLessThan.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB37EB7FD8BBAE989114934A1AABD6C7 /* BeLessThan.swift */; settings = {COMPILER_FLAGS = "-DPRODUCT_NAME=Nimble/Nimble"; }; };
@@ -374,7 +374,7 @@
 		AABBC948D55BAFACF392F30C8D27B6F3 /* DSL.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DSL.swift; path = Sources/Quick/DSL/DSL.swift; sourceTree = "<group>"; };
 		ACEB2127A47162166BDABA88DB4578CD /* XCTestSuite+QuickTestSuiteBuilder.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "XCTestSuite+QuickTestSuiteBuilder.m"; path = "Sources/QuickObjectiveC/XCTestSuite+QuickTestSuiteBuilder.m"; sourceTree = "<group>"; };
 		AECD87E6213E7B6E007955D2 /* JinsangUtility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = JinsangUtility.swift; path = jinsang_public_lib/Classes/JinsangUtility.swift; sourceTree = "<group>"; };
-		AECD8810213F97B0007955D2 /* AceTM.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AceTM.framework; path = jinsang_public_lib/Classes/AceTM.framework; sourceTree = "<group>"; };
+		AECD8814213FA83D007955D2 /* AceTM.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AceTM.framework; path = jinsang_public_lib/Classes/AceTM.framework; sourceTree = "<group>"; };
 		AFFE37A421B0965F0B0AEA5CFCC4888D /* BeVoid.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BeVoid.swift; path = Sources/Nimble/Matchers/BeVoid.swift; sourceTree = "<group>"; };
 		B02741A8FEEDDE2BA675FC363CC805BF /* QuickSpec.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = QuickSpec.h; path = Sources/QuickObjectiveC/QuickSpec.h; sourceTree = "<group>"; };
 		B0D3B0C900E8CAAD1E3FD246B3B4F65A /* AllPass.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AllPass.swift; path = Sources/Nimble/Matchers/AllPass.swift; sourceTree = "<group>"; };
@@ -439,7 +439,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				91D0138ACFAD733E4061F12E450C336C /* Foundation.framework in Frameworks */,
-				AECD8811213F97B1007955D2 /* AceTM.framework in Frameworks */,
+				AECD8815213FA83D007955D2 /* AceTM.framework in Frameworks */,
 				B27DFD6025D94758785918F1D6F6C060 /* QuartzCore.framework in Frameworks */,
 				841FF232C33C7D49C58CEFDBE7EEB92B /* UIKit.framework in Frameworks */,
 				7E9B14D5F8842A86CA86F2AF45230725 /* XCTest.framework in Frameworks */,
@@ -488,7 +488,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C37EA25D429DFBB87204FE4E42A8D279 /* Foundation.framework in Frameworks */,
-				AECD8812213F97B1007955D2 /* AceTM.framework in Frameworks */,
+				AECD8816213FA83D007955D2 /* AceTM.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -775,7 +775,7 @@
 		AECD880F213F97A4007955D2 /* ACE SDK */ = {
 			isa = PBXGroup;
 			children = (
-				AECD8810213F97B0007955D2 /* AceTM.framework */,
+				AECD8814213FA83D007955D2 /* AceTM.framework */,
 			);
 			name = "ACE SDK";
 			sourceTree = "<group>";

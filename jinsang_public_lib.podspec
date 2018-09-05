@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'jinsang_public_lib'
-  s.version          = '0.4.0'
+  s.version          = '0.5.0'
   s.summary          = 'sample project of cocoapods.'
   s.swift_version = '4.1'
 
